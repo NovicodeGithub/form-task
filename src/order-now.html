@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intersog</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<form action="" class="order-form">
+    <h2>Send message</h2>
+    <label class="required input-field">
+        Your name:
+        <input type="text" value="" name="name" required>
+    </label>
+
+    <label class="required input-field">
+        Country:
+        <select name="country">
+            <option value="uk">Ukraine</option>
+            <option value="ru" selected>Russia</option>
+            <option value="us">USA</option>
+        </select>
+    </label>
+
+    <label class="required input-field">
+        E-mail address:
+        <input type="email" value="" name="email" required>
+    </label>
+
+    <label class="required input-field">
+        Your budget($):
+        <select name="country">
+            <option value="low">0-5.000</option>
+            <option value="medium" selected>5.000-10.000</option>
+            <option value="high">10.000-15.000</option>
+        </select>
+    </label>
+
+    <label class="required input-field">
+        Phone number:
+        <input type="tel" value="" name="phone" required>
+    </label>
+
+    <label class="input-field">
+        File Attachment:
+        <div class="input-type-file">
+            <div class="input-wrapper">
+                <input type="file" name="file" value="">
+                <button type="button" tabindex="-1">Select file</button>
+                <span class="file-name">File not selected</span>
+            </div>
+        </div>
+    </label>
+
+    <label class="required input-field">
+        Company:
+        <input type="text" value="" name="company" required>
+    </label>
+
+    <label class="required message-field">
+        Your meassage:
+        <textarea name="message" required></textarea>
+    </label>
+
+    <label class="required capcha-field">
+        Enter code:
+        <input type="text" value="" name="capcha" required>
+    </label>
+
+    <button class="submit-button" type="submit">Send</button>
+</form>
+
+</body>
+</html>
