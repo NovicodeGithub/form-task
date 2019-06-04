@@ -14,19 +14,25 @@
 
 
     <label class="input-field">
-        <span class="input-type-checkbox">
+        <span class="input-type-checkbox" style="font-size: 60px; border-radius: 20px;"> <!-- задокументировать, что реагирует на font-size и border-radius -->
             <input type="checkbox" value="disagree-with-email" name="name" required checked>
             <span class="check-mark"></span>
         </span>
-        Your name
+        Checked
+    </label>
+
+    <label class="input-field">
+        <span class="input-type-checkbox">
+            <input type="checkbox" value="disagree-with-email" name="name" required checked disabled>
+            <span class="check-mark"></span>
+        </span>
+        Checked  disabled
     </label>
 
     <label class="input-field">
         <input type="checkbox" value="agree-with-email" name="email" required>
         E-mail adress
     </label>
-
-
 
     <label class="required subject-field">
         Meassage subject:
