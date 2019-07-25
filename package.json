@@ -7,14 +7,17 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
-		"neutrino": "~8.3.0",
 		"@atomspace/stylelint": "~1.1.1",
 		"browser-sync": "2.24.7",
-		"htmlhint": "0.10.1"
+		"htmlhint": "0.10.1",
+		"neutrino": "~8.3.0",
+		"stylelint": "^10.1.0",
+		"stylelint-order": "^3.0.1"
 	},
 	"scripts": {
 		"start": "browser-sync start --server \"src\" --files \"src\" --open \"external\" --no-notify --no-ghost-mode",
 		"test": "htmlhint src/**/*.html",
-		"pretest": "neutrino stylelint --fix"
+		"pretest": "neutrino stylelint --fix",
+		"stylelint": "stylelint src/**/*.css --fix"
 	}
 }

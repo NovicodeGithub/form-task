@@ -1,46 +1,46 @@
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .contact-form {
-    width: 666px;
-    margin: auto;
+  margin: auto;
+  width: 666px;
 }
 
 .contact-form .input-field:nth-child(even) {
-    margin-right: 41px;
+  margin-right: 41px;
 }
 
 .contact-form .subject-field,
 .contact-form .message-field,
 .contact-form .submit-button {
-    width: 100%;
+  width: 100%;
 }
 
 .order-form {
-    width: 666px;
-    margin: auto;
+  margin: auto;
+  width: 666px;
 }
 
 .order-form .input-field:nth-child(even) {
-    margin-right: 41px;
+  margin-right: 41px;
 }
 
 .order-form .message-field,
 .order-form .submit-button {
-    width: 100%;
+  width: 100%;
 }
 
 .order-form .capcha-field {
-    width: 124px;
+  width: 124px;
 }
 
 
 .check-form {
-    width: 666px;
-    margin: auto;
+  margin: auto;
+  width: 666px;
 }
 
 .check-form .submit-button {
-    display: block;
+  display: block;
 }
